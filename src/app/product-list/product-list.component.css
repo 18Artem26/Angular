@@ -1,0 +1,67 @@
+.card {
+    margin-bottom: 20px;
+  }
+  
+  .product-card {
+    text-align: center;
+  }
+  
+/* Загальні стилі для головної сторінки */
+body {
+    font-family: 'Arial', sans-serif; /* Шрифт */
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Фоновий колір */
+}
+
+/* Контейнер для всього контенту */
+.container {
+    display: flex;
+    flex-direction: column; /* Вертикальне вирівнювання */
+    align-items: center; /* Центрує по горизонталі */
+    justify-content: center; /* Центрує по вертикалі */
+    min-height: 100vh; /* Мінімальна висота контейнера */
+    padding: 20px; /* Відступи */
+}
+
+/* Заголовки */
+h1, h2 {
+    margin: 20px 0; /* Відступи зверху і знизу */
+    color: #333; /* Колір тексту */
+    text-align: center; /* Центруємо текст заголовка */
+}
+
+/* Список продуктів */
+.product-list {
+    display: flex;
+    flex-wrap: wrap; /* Дозволяє елементам переходити на новий рядок */
+    justify-content: center; /* Центрує продукти */
+    gap: 20px; /* Відстань між продуктами */
+    max-width: 1000px; /* Максимальна ширина списку продуктів */
+    margin: 0 auto; /* Центрує контейнер */
+}
+
+/* Стилі для карток продуктів */
+.product-card {
+    background-color: #fff; /* Фон продукту */
+    border-radius: 8px; /* Заокруглені кути */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тінь */
+    padding: 20px; /* Відступи всередині картки */
+    text-align: center; /* Центрує текст всередині картки */
+    width: 200px; /* Ширина картки продукту */
+}
+
+/* Стилі для кнопок */
+.button {
+    background-color: #007bff; /* Колір фону кнопки */
+    color: #fff; /* Колір тексту кнопки */
+    border: none; /* Без рамки */
+    border-radius: 5px; /* Заокруглені кути */
+    padding: 10px 20px; /* Відступи всередині кнопки */
+    cursor: pointer; /* Показує курсор при наведенні */
+    transition: background-color 0.3s; /* Анімація фону */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Темніший фон при наведенні */
+}
